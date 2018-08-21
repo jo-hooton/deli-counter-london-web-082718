@@ -19,3 +19,7 @@ def line(line)
   puts "#{message}"
 end
 end
+
+line(katz_deli)
+
+
