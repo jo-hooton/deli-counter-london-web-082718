@@ -7,10 +7,6 @@ def take_a_number(line, name)
   return name, position
 end
 
-take_a_number(katz_deli, "Grace")
-take_a_number(katz_deli, "Nicky")
-take_a_number(katz_deli, "Joni")
-
 def line(line)
   if line.size == 0
     puts "The line is currently empty."
