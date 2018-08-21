@@ -21,5 +21,3 @@ end
 end
 
 line(katz_deli)
-
-
