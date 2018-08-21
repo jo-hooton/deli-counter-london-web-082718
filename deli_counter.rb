@@ -20,4 +20,10 @@ def line(line)
 end
 end
 
-line(katz_deli)
+def now_serving(line)
+  if line.empty? == true
+    puts "There is nobody waiting to be served!"
+  elsif line.empty? == false
+    puts "Currently serving #{line.shift}."
+  end
+end
