@@ -14,7 +14,7 @@ def line(line)
     message = "The line is currently: "
 
   line.each_with_index do | position, index |
-    message += "#{index.to_i+1}. #{position}"
+    message += " #{index.to_i+1}. #{position}"
   end
   puts "#{message}"
 end
