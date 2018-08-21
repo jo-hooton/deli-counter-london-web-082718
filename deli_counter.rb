@@ -11,7 +11,7 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty."
   else
-    message = "The line is currently:"
+    message = "The line is currently: "
 
   line.each_with_index do | position, index |
     message += "#{index.to_i+1}. #{position}"
