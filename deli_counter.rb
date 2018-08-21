@@ -8,8 +8,8 @@ def take_a_number(line, name)
 end
 
 take_a_number(katz_deli, "Grace")
-take_a_number(katz_deli, "Tom")
-take_a_number(katz_deli, "Alan")
+take_a_number(katz_deli, "Nicky")
+take_a_number(katz_deli, "Joni")
 
 def line(line)
   if line.size == 0
